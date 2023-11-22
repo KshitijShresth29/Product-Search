@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,13 +8,25 @@
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <section class="container">
         <form>
             <i class="fas fa-search"></i>
-            <input type="text" name="" id="search-item" placeholder="search products">
+            <input type="text" name="" id="search-item" placeholder="search products" onkeyup="search()">
         </form>
         <div class="product-list">
+            <div class="product">
+                <img src="blackjeans.jpg" alt="">
+                <div class="p-details">
+                    <h2>
+                        Black Jeans
+                    </h2>
+                    <h3>
+                        $25.00
+                    </h3>
+                </div>
+            </div>
             <div class="product">
                 <img src="blackshirt.jpeg" alt="">
                 <div class="p-details">
@@ -25,10 +38,65 @@
                     </h3>
                 </div>
             </div>
+            <div class="product">
+                <img src="bluejeans.jpeg" alt="">
+                <div class="p-details">
+                    <h2>
+                        Blue Jeans
+                    </h2>
+                    <h3>
+                        $25.00
+                    </h3>
+                </div>
+            </div>
+            <div class="product">
+                <img src="greenshirt.jpg" alt="">
+                <div class="p-details">
+                    <h2>
+                        Green T-Shirt
+                    </h2>
+                    <h3>
+                        $5.00
+                    </h3>
+                </div>
+            </div>
+            <div class="product">
+                <img src="purpleshirt.jpeg" alt="">
+                <div class="p-details">
+                    <h2>
+                        Purple T-Shirt
+                    </h2>
+                    <h3>
+                        $5.00
+                    </h3>
+                </div>
+            </div>
+            <div class="product">
+                <img src="whitejeans.jpg" alt="">
+                <div class="p-details">
+                    <h2>
+                        White Jeans
+                    </h2>
+                    <h3>
+                        $25.00
+                    </h3>
+                </div>
+            </div>
+            <div class="product">
+                <img src="whiteshirt.jpeg" alt="">
+                <div class="p-details">
+                    <h2>
+                        White T-Shirt
+                    </h2>
+                    <h3>
+                        $5.00
+                    </h3>
+                </div>
+            </div>
         </div>
-
     </section>
-    
-<script src="script.js"></script>
+
+    <script src="script.js"></script>
 </body>
+
 </html>
